@@ -12,13 +12,13 @@ public class EnterYourName {
         System.out.println("First Name: ");
         String firstName = scanner.next();
 
-        System.out.println("Last Name: ");
-        String lastName = scanner.next();
+       
         
         // Print a greeting message
-        System.out.println("Hello, " + firstName + " " + lastName + "!");
+        System.out.println("Hello, " + firstName + "!");
         
         // Close the scanner
         scanner.close();
     }
 }
+
